@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-   "start": "nodemon server2.js"
+   "start": "nodemon server.js"
+  
 
   },
   "repository": {
