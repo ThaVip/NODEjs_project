@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_crash-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+   "start": "nodemon server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "Nodejs_first"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
