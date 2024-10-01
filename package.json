@@ -2,10 +2,10 @@
   "name": "nodejs_crash-2024",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
-   "start": "nodemon server.js"
+   "start": "nodemon server2.js"
   
 
   },

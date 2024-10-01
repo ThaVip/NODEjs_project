@@ -14,10 +14,10 @@ const server = http.createServer(async(req, res)=>{
     try {
         if (req.method === 'GET'){
             let filepath;
-            if (req.url === '/'){
+            if (req.url == '/'){
                 filepath = path.join(__dirname, 'public', 'home.html')
             }    
-            else if(req.url ==='/about'){
+            else if(req.url =='/about'){
                 filepath = path.join(__dirname, 'public', 'about.html')
             }
             else {
